@@ -1,0 +1,48 @@
+name: Problema
+description: Algo no IdleXP não funciona como deveria
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar. Esta issue é **pública**: não escreva senha, e-mail nem o nome dos seus personagens.
+        Problema de segurança? Relate [em particular](https://github.com/idlexp-app/idlexp-releases/security/advisories/new).
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do IdleXP
+      description: "Aparece na barra de cima do app, ao lado do nome (por exemplo, v0.4.9)."
+      placeholder: v0.4.9
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Outro
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu
+      description: O que você esperava e o que apareceu no lugar.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como fazer acontecer de novo
+      placeholder: |
+        1. Abri o app com 4 telas
+        2. Liguei o modo economia na conta 2
+        3. ...
+  - type: textarea
+    id: log
+    attributes:
+      label: Trecho do diagnóstico (opcional)
+      description: |
+        O arquivo fica em %APPDATA%\idlexp\diagnostico.log. Cole só as linhas do horário do problema e **apague antes os nomes dos seus personagens** — o arquivo guarda esses nomes.
+      render: text

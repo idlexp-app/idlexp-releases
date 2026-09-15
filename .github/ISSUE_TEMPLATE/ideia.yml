@@ -1,0 +1,17 @@
+name: Sugestão
+description: Uma ideia para o IdleXP
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esta issue é **pública**: não escreva senha, e-mail nem o nome dos seus personagens.
+  - type: textarea
+    id: ideia
+    attributes:
+      label: O que você queria que o IdleXP fizesse
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Por que isso ajudaria na sua jogatina
