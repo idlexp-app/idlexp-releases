@@ -1,9 +1,6 @@
-# IdleXP privacy notice
+<a href="PRIVACIDADE.md">Português</a> · <b>English</b>
 
-<p>
-  <a href="PRIVACIDADE.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs-555?style=flat-square" alt="Português"></a>
-  <img src="https://img.shields.io/badge/English-2ea043?style=flat-square" alt="English">
-</p>
+# IdleXP privacy notice
 
 Last updated: 16/09/2026.
 

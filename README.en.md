@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="README.md">Português</a> · <b>English</b>
+</p>
+
+<p align="center">
   <img src="imagens/goblin.png" width="136" height="128" alt="IdleXP">
 </p>
 
@@ -6,11 +10,6 @@
 
 <p align="center">
   <strong>Four Huntera accounts in a single window — and your PC barely notices.</strong>
-</p>
-
-<p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs-555?style=flat-square" alt="Português"></a>
-  <img src="https://img.shields.io/badge/English-2ea043?style=flat-square" alt="English">
 </p>
 
 <p align="center">

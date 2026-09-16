@@ -1,9 +1,6 @@
-# IdleXP security
+<a href="SECURITY.md">Português</a> · <b>English</b>
 
-<p>
-  <a href="SECURITY.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs-555?style=flat-square" alt="Português"></a>
-  <img src="https://img.shields.io/badge/English-2ea043?style=flat-square" alt="English">
-</p>
+# IdleXP security
 
 ## Where to download
 
