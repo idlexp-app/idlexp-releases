@@ -1,0 +1,104 @@
+IdleXP End User License Agreement
+
+Copyright (c) 2026 IdleXP. All rights reserved.
+
+This is an agreement between you and IdleXP ("the holder"), regarding the
+IdleXP software ("the software"). By installing or using the software, you accept these
+terms. If you do not accept them, do not install and do not use it.
+
+1. WHAT YOU MAY DO
+
+The holder grants you a free, non-exclusive, non-transferable and revocable
+license to install and use the software on the computers you use, for your own
+use. There is no time limit, no charge and no user account.
+
+2. WHAT YOU MAY NOT DO
+
+Without the prior written authorization of the holder, you may not:
+
+  a) copy, publish, distribute or make available to third parties the
+     installer, the executable or any part of the software;
+  b) modify, adapt, translate or create derivative works of the software;
+  c) extract, decompile, disassemble or reverse engineer the software, except
+     as applicable law allows regardless of this agreement;
+  d) sell, rent, lend, sublicense or charge in any way for the software or for
+     access to it;
+  e) remove or alter authorship notices, trademarks or this license notice.
+
+3. OWNERSHIP
+
+The software is licensed, not sold. The holder retains all rights to it,
+including to the source code, which is not published. Possessing a copy of the
+software, or having access to the repository in which it is developed, grants
+no license to the source code.
+
+4. RELATIONSHIP WITH HUNTERA
+
+IdleXP is not produced, endorsed, sponsored by or affiliated with Huntera
+(https://huntera.com.br/) or whoever operates it. "Huntera" and the game's
+trademarks belong to their respective owners.
+
+The software only reads the game: it does not automate gameplay actions.
+Complying with Huntera's terms of use and rules is the responsibility of the
+player, and using the software does not change that responsibility.
+
+5. PRIVACY
+
+The software has no server and no account, and sends none of your data to the
+holder. There is no sign-up, telemetry, analytics, advertising or tracker.
+
+Everything it keeps stays on your computer, in the IdleXP data folder —
+%APPDATA%\idlexp on Windows, ~/Library/Application Support/idlexp on macOS and
+~/.config/idlexp on Linux. That folder holds the game logins, your preferences
+and a technical log (diagnostico.log), which is never sent anywhere.
+Uninstalling the software does not delete that folder.
+
+The software talks only to Huntera itself, to the login service Huntera uses
+and, each time it opens, to GitHub, to check whether a new version exists.
+The request to GitHub carries only what any download carries, the IP address
+of your connection, and the versions involved: nothing about you, your
+computer or your accounts. The privacy notice published with each version
+describes each item in detail.
+
+6. WARRANTY AND LIABILITY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. THIRD-PARTY COMPONENTS
+
+The software embeds third-party components, each under its own license, which
+prevails over this one as to that component:
+
+  Electron          — MIT license
+  ws                — MIT license
+  electron-updater  — MIT license, with the libraries it uses, under the
+                      MIT, ISC, Blue Oak 1.0.0 and Python 2.0 licenses
+  Barlow            — SIL Open Font License 1.1 (text in
+                      src/renderer/assets/fonts/OFL.txt)
+
+8. TERMINATION
+
+This license terminates automatically if you fail to comply with any condition
+above. Once terminated, you must stop using the software and uninstall it. You
+may terminate it at any time by uninstalling the software.
+
+9. GOVERNING LAW
+
+This license is governed by the laws of Brazil.
+
+10. FUTURE VERSIONS
+
+A future version of the software may come with a different license. That
+license applies to the version it accompanies; this one continues to apply to
+this version.
+
+11. LANGUAGES
+
+This is a translation of the Portuguese-language End User License Agreement.
+In case of any conflict or divergence between the two versions, the Portuguese
+version prevails.

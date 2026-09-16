@@ -9,13 +9,20 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP-Setup.exe"><img src="https://img.shields.io/badge/Baixar_para_Windows-IdleXP--Setup.exe-2ea043?style=for-the-badge" alt="Baixar para Windows"></a>
+  <img src="https://img.shields.io/badge/Portugu%C3%AAs-2ea043?style=flat-square" alt="Português">
+  <a href="README.en.md"><img src="https://img.shields.io/badge/English-555?style=flat-square" alt="English"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP-Setup.exe"><img src="https://img.shields.io/badge/Windows-IdleXP--Setup.exe-2ea043?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar para Windows"></a>
+  <a href="https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP.dmg"><img src="https://img.shields.io/badge/macOS-IdleXP.dmg-2ea043?style=for-the-badge&logo=apple&logoColor=white" alt="Baixar para macOS"></a>
+  <a href="https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP.AppImage"><img src="https://img.shields.io/badge/Linux-IdleXP.AppImage-2ea043?style=for-the-badge&logo=linux&logoColor=white" alt="Baixar para Linux"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/idlexp-app/idlexp-releases/releases/latest"><img src="https://img.shields.io/github/v/release/idlexp-app/idlexp-releases?label=vers%C3%A3o&color=2ea043" alt="Versão"></a>
   <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fidlexp-app%2Fidlexp-releases%2Finsignias%2Fdownloads.json" alt="Downloads">
-  <img src="https://img.shields.io/badge/Windows-10_e_11-0078d4" alt="Windows 10 e 11">
+  <img src="https://img.shields.io/badge/Windows_%C2%B7_macOS_%C2%B7_Linux-0078d4" alt="Windows, macOS e Linux">
   <img src="https://img.shields.io/badge/pre%C3%A7o-gr%C3%A1tis-555" alt="Grátis">
 </p>
 
@@ -71,46 +78,75 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
 - **Esconde os nomes para print e live.** Um clique tarja os nomes dos personagens no app e, dentro
   do jogo, no mapa, na party e no cabeçalho.
 - **Se atualiza sozinho.** Ao abrir, o IdleXP confere se há versão nova, baixa e instala antes de
-  qualquer conta abrir. Você baixa uma vez só.
+  qualquer conta abrir. Você baixa uma vez só. (No Mac ele avisa e traz você até aqui — veja abaixo.)
 
 > O modo economia acompanha o personagem enquanto ele caça offline (VIP). Ele não mantém uma
 > caçada que o jogo não manteria.
 
 ## Instalar
 
-1. Clique em **[Baixar para Windows](https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP-Setup.exe)**.
-2. Abra o `IdleXP-Setup.exe`. Na primeira vez o Windows mostra um aviso azul (veja abaixo por quê):
+O IdleXP roda em **Windows, macOS e Linux**, de 64 bits. Escolha o seu:
+
+### Windows 10 ou 11
+
+1. Baixe o **[IdleXP-Setup.exe](https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP-Setup.exe)**.
+2. Abra o arquivo. Na primeira vez o Windows mostra um aviso azul (veja abaixo por quê):
    clique em **Mais informações** e depois em **Executar assim mesmo**.
 3. Aceite a licença, escolha a pasta e pronto. No fim dá para abrir o app e criar o atalho.
 
-Requisitos: Windows 10 ou 11, 64 bits. O instalador não pede senha de administrador e instala
-só para o seu usuário.
+O instalador não pede senha de administrador e instala só para o seu usuário.
+
+### macOS (Intel e Apple Silicon)
+
+1. Baixe o **[IdleXP.dmg](https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP.dmg)** — é um arquivo só, que serve nos dois tipos de Mac.
+2. Abra o `.dmg` e arraste o IdleXP para a pasta **Aplicativos**.
+3. Na primeira vez o macOS diz que o desenvolvedor não foi identificado. Vá em **Ajustes do
+   Sistema › Privacidade e Segurança**, role até o aviso do IdleXP e clique em **Abrir assim
+   mesmo**. É uma vez só.
+
+**No Mac o IdleXP não se atualiza sozinho.** Ele confere se existe versão nova e avisa na tela de
+abertura, com o endereço desta página para você baixar. O motivo está em "É seguro?", abaixo.
+
+### Linux (64 bits)
+
+1. Baixe o **[IdleXP.AppImage](https://github.com/idlexp-app/idlexp-releases/releases/latest/download/IdleXP.AppImage)**.
+2. Dê permissão de execução — pelo gerenciador de arquivos (Propriedades › Permissões › "Permitir
+   executar") ou no terminal:
+   ```
+   chmod +x IdleXP.AppImage
+   ```
+3. Abra o arquivo. Não há instalação, não pede senha e não aparece aviso nenhum do sistema.
+
+O AppImage não cria atalho no menu sozinho, e o IdleXP não vai oferecer criar um: se você quiser
+essa integração, o AppImageLauncher da sua distribuição já pergunta. Guarde o arquivo onde ele
+possa ficar — a atualização troca esse mesmo arquivo no lugar.
 
 ## É seguro?
 
 **Sim — e você não precisa acreditar só na nossa palavra.**
 
-### Por que o Windows mostra um aviso azul
+### Por que o sistema mostra um aviso
 
-O aviso "O Windows protegeu o computador" aparece para todo programa novo que ainda não tem uma
-**assinatura digital paga**. Ele quer dizer "o Windows ainda não conhece este arquivo", e não
-"este arquivo é perigoso". Conforme mais pessoas baixam, o aviso tende a sumir.
+O IdleXP ainda não tem **assinatura digital paga**, e cada sistema reage a isso de um jeito:
+
+| Sistema | O que aparece | O que significa |
+| --- | --- | --- |
+| **Windows** | "O Windows protegeu o computador" (tela azul do SmartScreen) | "o Windows ainda não conhece este arquivo", e não "este arquivo é perigoso". Conforme mais pessoas baixam, o aviso tende a sumir |
+| **macOS** | "não foi possível verificar o desenvolvedor" | a Apple cobra US$99/ano para identificar desenvolvedores, e nós não pagamos. É também por isso que o Mac não se atualiza sozinho: o macOS recusa instalar atualização de app sem assinatura |
+| **Linux** | nada | o AppImage abre direto, e se atualiza sozinho |
 
 ### Como conferir que o arquivo é o original
 
 - **Selo Immutable.** Cada versão publicada aqui é travada pelo próprio GitHub: depois de
-  publicada, ninguém — nem nós — consegue trocar o instalador. Você vê o cadeado **Immutable**
+  publicada, ninguém — nem nós — consegue trocar os arquivos. Você vê o cadeado **Immutable**
   na página da versão, e o GitHub assina um atestado que qualquer pessoa confere com o
   [GitHub CLI](https://cli.github.com/):
   ```
   gh release verify-asset IdleXP-Setup.exe -R idlexp-app/idlexp-releases
   ```
-- **Código de conferência (SHA-256).** As notas de cada versão trazem o código do instalador.
-  No PowerShell, na pasta onde você baixou:
-  ```
-  Get-FileHash .\IdleXP-Setup.exe
-  ```
-  O resultado tem que ser igual ao das notas. Se for diferente, não instale.
+- **Código de conferência (SHA-256).** As notas de cada versão trazem o código dos três arquivos,
+  com o comando de cada sistema ao lado. O resultado tem que ser igual ao das notas. Se for
+  diferente, não instale.
 - **O único endereço oficial é este repositório.** O IdleXP baixado de qualquer outro lugar não é
   nosso.
 
@@ -122,8 +158,8 @@ O aviso "O Windows protegeu o computador" aparece para todo programa novo que ai
   app só conversa com o Huntera e com este repositório, para saber se há versão nova.
 - **Não joga por você.** O modo economia só **lê** o que acontece com o personagem. O IdleXP não
   sabe mandar nenhuma ação de jogo: essa parte não existe no programa.
-- **Não mexe nos seus logins ao desinstalar.** Eles ficam em `%APPDATA%\idlexp`, e reinstalar
-  devolve as quatro contas logadas.
+- **Não mexe nos seus logins ao ser removido.** Eles ficam numa pasta sua, e reinstalar devolve as
+  quatro contas logadas.
 - **Não instala atualização sem conferir.** Ela só vem deste repositório, e só é aplicada se o
   código de conferência do arquivo baixado bater com o publicado aqui.
 
@@ -131,18 +167,25 @@ Os detalhes estão na [nota de privacidade](PRIVACIDADE.md) e na [política de s
 
 ## Dúvidas comuns
 
-**Funciona no Mac?** Ainda não. Por enquanto, só Windows.
+**Funciona no Mac?** Funciona, em Intel e Apple Silicon, no mesmo arquivo. A diferença é que no Mac
+ele não instala atualização sozinho: avisa que saiu uma e traz você até aqui.
 
-**Onde ficam os meus logins?** No seu PC, em `%APPDATA%\idlexp`. Nada sai dali.
+**E no Linux?** Também, pelo AppImage de 64 bits — sem instalar e sem pedir senha. Essa é a
+primeira versão do IdleXP para Linux; se algo não funcionar na sua distribuição, nos conte numa
+issue.
 
-**Como desinstalar?** Em Configurações › Aplicativos, procure IdleXP. Os logins ficam guardados
-para quando você voltar.
+**Onde ficam os meus logins?** No seu computador: `%APPDATA%\idlexp` no Windows,
+`~/Library/Application Support/idlexp` no macOS e `~/.config/idlexp` no Linux. Nada sai dali.
+
+**Como remover?** No Windows, em Configurações › Aplicativos, procure IdleXP. No macOS, arraste o
+IdleXP.app para o Lixo. No Linux, apague o arquivo `IdleXP.AppImage`. Em todos, os logins ficam
+guardados para quando você voltar.
 
 **Achei um problema.** [Abra uma issue](https://github.com/idlexp-app/idlexp-releases/issues/new/choose)
-contando a versão e o que aconteceu. Problema de segurança, relate
+contando a versão, o seu sistema e o que aconteceu. Problema de segurança, relate
 [em particular](https://github.com/idlexp-app/idlexp-releases/security/advisories/new).
 
 ---
 
-<sub>O IdleXP é gratuito e não é afiliado ao Huntera. Uso sujeito à [licença](LICENSE).
-Huntera é marca de seus respectivos donos.</sub>
+<sub>O IdleXP é gratuito e não é afiliado ao Huntera. Uso sujeito à licença
+([português](LICENSE) · [English](LICENSE.en.txt)). Huntera é marca de seus respectivos donos.</sub>

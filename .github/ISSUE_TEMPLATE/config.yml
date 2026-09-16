@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Problema de segurança
+  - name: Problema de segurança (Português)
     url: https://github.com/idlexp-app/idlexp-releases/security/advisories/new
     about: Relate em particular — só a equipe do IdleXP vê até ser resolvido.
+  - name: Security problem (English)
+    url: https://github.com/idlexp-app/idlexp-releases/security/advisories/new
+    about: Report it privately — only the IdleXP team sees it until it is resolved.

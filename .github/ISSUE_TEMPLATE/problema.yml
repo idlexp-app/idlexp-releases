@@ -1,4 +1,4 @@
-name: Problema
+name: 🐛 Relatar um problema (Português)
 description: Algo no IdleXP não funciona como deveria
 body:
   - type: markdown
@@ -10,20 +10,29 @@ body:
     id: versao
     attributes:
       label: Versão do IdleXP
-      description: "Aparece na barra de cima do app, ao lado do nome (por exemplo, v0.4.9)."
-      placeholder: v0.4.9
+      description: "Aparece na barra de cima do app, ao lado do nome (por exemplo, v0.5.0)."
+      placeholder: v0.5.0
     validations:
       required: true
   - type: dropdown
-    id: windows
+    id: sistema
     attributes:
-      label: Windows
+      label: Sistema
       options:
         - Windows 11
         - Windows 10
+        - macOS (Apple Silicon — M1 ou mais novo)
+        - macOS (Intel)
+        - Linux
         - Outro
     validations:
       required: true
+  - type: input
+    id: distribuicao
+    attributes:
+      label: Se for Linux, qual distribuição
+      description: "Por exemplo: Ubuntu 24.04, Fedora 40, Arch."
+      placeholder: Ubuntu 24.04
   - type: textarea
     id: aconteceu
     attributes:
@@ -44,5 +53,5 @@ body:
     attributes:
       label: Trecho do diagnóstico (opcional)
       description: |
-        O arquivo fica em %APPDATA%\idlexp\diagnostico.log. Cole só as linhas do horário do problema e **apague antes os nomes dos seus personagens** — o arquivo guarda esses nomes.
+        O arquivo `diagnostico.log` fica na pasta de dados do app: `%APPDATA%\idlexp` no Windows, `~/Library/Application Support/idlexp` no macOS, `~/.config/idlexp` no Linux. Cole só as linhas do horário do problema e **apague antes os nomes dos seus personagens** — o arquivo guarda esses nomes.
       render: text

@@ -1,0 +1,57 @@
+name: 🐛 Report a problem (English)
+description: Something in IdleXP does not work the way it should
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for letting us know. This issue is **public**: do not write a password, an e-mail address or your characters' names.
+        A security problem? Report it [privately](https://github.com/idlexp-app/idlexp-releases/security/advisories/new).
+  - type: input
+    id: versao
+    attributes:
+      label: IdleXP version
+      description: "It shows in the app's top bar, next to the name (for example, v0.5.0)."
+      placeholder: v0.5.0
+    validations:
+      required: true
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: System
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon — M1 or newer)
+        - macOS (Intel)
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: distribuicao
+    attributes:
+      label: If Linux, which distribution
+      description: "For example: Ubuntu 24.04, Fedora 40, Arch."
+      placeholder: Ubuntu 24.04
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: What happened
+      description: What you expected and what showed up instead.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: How to make it happen again
+      placeholder: |
+        1. I opened the app with 4 screens
+        2. I turned on economy mode on account 2
+        3. ...
+  - type: textarea
+    id: log
+    attributes:
+      label: Diagnostic excerpt (optional)
+      description: |
+        The `diagnostico.log` file lives in the app's data folder: `%APPDATA%\idlexp` on Windows, `~/Library/Application Support/idlexp` on macOS, `~/.config/idlexp` on Linux. Paste only the lines from the time of the problem and **delete your characters' names first** — the file records those names.
+      render: text

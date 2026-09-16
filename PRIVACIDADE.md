@@ -1,6 +1,11 @@
 # Nota de privacidade do IdleXP
 
-Última atualização: 14/09/2026.
+<p>
+  <img src="https://img.shields.io/badge/Portugu%C3%AAs-2ea043?style=flat-square" alt="Português">
+  <a href="PRIVACY.md"><img src="https://img.shields.io/badge/English-555?style=flat-square" alt="English"></a>
+</p>
+
+Última atualização: 16/09/2026.
 
 **O IdleXP não tem servidor, não tem conta e não envia nada para nós.** Tudo o
 que ele guarda fica no seu computador, e a única coisa com que ele conversa é o
@@ -12,20 +17,33 @@ porque não existe nenhum servidor nosso.
 
 ## O que o app guarda, e onde
 
-Tudo o que é seu fica numa pasta só, no seu PC: `%APPDATA%\idlexp`. Dentro dela:
+Tudo o que é seu fica numa pasta só, no seu computador. Onde ela fica depende do
+sistema:
+
+| Sistema | A pasta |
+| --- | --- |
+| Windows | `%APPDATA%\idlexp` |
+| macOS | `~/Library/Application Support/idlexp` |
+| Linux | `~/.config/idlexp` |
+
+Dentro dela:
 
 | Pasta ou arquivo | O que é |
 | --- | --- |
-| `Partitions\idlexp-account-{1..4}` | Os quatro logins do jogo — cookies e armazenamento que **o próprio site do Huntera** grava. O IdleXP não lê essas credenciais: ele só mantém as quatro separadas, para que uma conta não enxergue a outra |
+| `Partitions/idlexp-account-{1..4}` | Os quatro logins do jogo — cookies e armazenamento que **o próprio site do Huntera** grava. O IdleXP não lê essas credenciais: ele só mantém as quatro separadas, para que uma conta não enxergue a outra |
 | `settings.json` | Suas preferências de tela, e só isso: o zoom, quantas telas, o arranjo (grade ou principal), quais contas estão em economia e se o olho dos nomes está ligado |
-| `sprites\` | Cache das imagens de monstro que o painel de economia mostra, baixadas do próprio Huntera |
+| `sprites/` | Cache das imagens de monstro que o painel de economia mostra, baixadas do próprio Huntera |
 | `diagnostico.log` | Registro técnico do que o app fez, para investigar um problema. Veja a seção abaixo |
 | `Cache`, `GPUCache`, `Local Storage` e as outras pastas soltas | O que o navegador embutido grava por conta própria para a janela do app: cache de arquivos baixados e de desenho, e as preferências dele. Os logins do jogo não ficam nelas — ficam em `Partitions` |
 
-Instalado, o IdleXP ocupa mais duas pastas, e nenhuma delas guarda nada seu:
-`%LOCALAPPDATA%\Programs\IdleXP`, que é o próprio programa, e
-`%LOCALAPPDATA%\idlexp-updater`, onde fica uma cópia do instalador que a
-atualização usa para baixar só o que mudou.
+O IdleXP ocupa mais espaço fora dessa pasta, e nada disso guarda nada seu: o
+próprio programa, e o lugar onde a atualização deixa o que já baixou.
+
+| Sistema | O programa | A atualização |
+| --- | --- | --- |
+| Windows | `%LOCALAPPDATA%\Programs\IdleXP` | `%LOCALAPPDATA%\idlexp-updater`, com uma cópia do instalador que serve para baixar só o que mudou da próxima vez |
+| macOS | o `IdleXP.app` que você arrastou para Aplicativos | nada: no Mac o app não instala atualização sozinho, só avisa que existe |
+| Linux | o arquivo `IdleXP.AppImage`, onde você o deixou | `~/.cache/idlexp-updater`, usado enquanto a atualização baixa |
 
 Não guardamos senha, e-mail, forma de pagamento nem nada parecido — o IdleXP
 nunca pede essas coisas. Sua senha do jogo você digita na página do Huntera
@@ -78,16 +96,16 @@ quem vai printar ou transmitir.
 
 ## Como apagar tudo
 
-Feche o IdleXP e apague a pasta `%APPDATA%\idlexp`. Isso remove os logins, as
-preferências, o cache e o log de uma vez — **e desloga as quatro contas.**
-Desinstalar o app não apaga essa pasta, de propósito: quem desinstala para
-reinstalar não deveria ter que logar quatro vezes de novo.
+Feche o IdleXP e apague a pasta de dados da tabela lá de cima — `%APPDATA%\idlexp`
+no Windows, `~/Library/Application Support/idlexp` no macOS ou `~/.config/idlexp`
+no Linux. Isso remove os logins, as preferências, o cache e o log de uma vez — **e
+desloga as quatro contas.** Tirar o app não apaga essa pasta, de propósito: quem
+desinstala para reinstalar não deveria ter que logar quatro vezes de novo.
 
-Desinstalar remove o programa (`%LOCALAPPDATA%\Programs\IdleXP`). A pasta
-`%LOCALAPPDATA%\idlexp-updater` fica, e pode ser apagada à mão a qualquer
-momento: na próxima atualização o app baixa o instalador inteiro.
-
-No macOS a pasta equivalente é `~/Library/Application Support/idlexp`.
+Tirar o app é diferente em cada sistema: no Windows, desinstalar em Configurações
+› Aplicativos; no macOS, arrastar o `IdleXP.app` para o Lixo; no Linux, apagar o
+arquivo `IdleXP.AppImage`. A pasta da atualização, onde existir, pode ser apagada
+à mão a qualquer momento — na vez seguinte o app baixa o arquivo inteiro.
 
 ## LGPD
 
@@ -95,7 +113,7 @@ Não fazemos tratamento de dados pessoais seus, porque nada sai do seu
 computador em direção a nós. O que o Huntera coleta enquanto você joga é
 assunto entre você e o Huntera, e vale a política de privacidade deles.
 
-O IdleXP não é afiliado ao Huntera — veja o `LICENSE`.
+O IdleXP não é afiliado ao Huntera — veja a [licença](LICENSE).
 
 ## Se esta nota mudar
 

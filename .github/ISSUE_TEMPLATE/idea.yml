@@ -1,0 +1,17 @@
+name: 💡 Suggest an idea (English)
+description: An idea for IdleXP
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is **public**: do not write a password, an e-mail address or your characters' names.
+  - type: textarea
+    id: ideia
+    attributes:
+      label: What you would like IdleXP to do
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: Why that would help your play
