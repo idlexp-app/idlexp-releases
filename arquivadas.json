@@ -1,0 +1,22 @@
+{
+  "v0.5.1": {
+    "IdleXP-Setup.exe": 18,
+    "IdleXP.dmg": 0,
+    "IdleXP.AppImage": 2
+  },
+  "v0.5.0": {
+    "IdleXP-Setup.exe": 48,
+    "IdleXP.dmg": 3,
+    "IdleXP.AppImage": 3
+  },
+  "v0.4.9": {
+    "IdleXP-Setup.exe": 40,
+    "IdleXP.dmg": 0,
+    "IdleXP.AppImage": 0
+  },
+  "v0.4.8": {
+    "IdleXP-Setup.exe": 30,
+    "IdleXP.dmg": 0,
+    "IdleXP.AppImage": 0
+  }
+}
