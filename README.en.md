@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="imagens/painel-economia.png" alt="The economy mode panel: XP per hour, profit, preys and the hunt's bestiary">
+  <img src="imagens/painel-economia.png" alt="The economy mode panel: XP per hour, profit, preys, the hunt's bestiary and your gear's imbuements">
   <br>
   <sub>The economy mode panel. Illustrative image, with sample data.</sub>
 </p>

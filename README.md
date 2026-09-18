@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="imagens/painel-economia.png" alt="O painel do modo economia: XP por hora, profit, preys e bestiário da caçada">
+  <img src="imagens/painel-economia.png" alt="O painel do modo economia: XP por hora, profit, preys, bestiário da caçada e os imbuements do equipamento">
   <br>
   <sub>O painel do modo economia. Imagem ilustrativa, com dados de exemplo.</sub>
 </p>
