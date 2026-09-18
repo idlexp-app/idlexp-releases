@@ -69,11 +69,14 @@ numbers on your PC will be different; the ratio is what counts.</sub>
   alongside. Adjustable zoom and full screen.
 - **Economy mode.** The account keeps hunting, but with no browser open. In place of the game there
   is a panel with what matters: health, mana, stamina, level, **XP/h**, **Profit/h**, the active
-  **preys** and the hunt's **bestiary**, with how much is left for each stage.
+  **preys**, the hunt's **bestiary**, with how much is left for each stage, and your gear's
+  **imbuements**, with the time left on each one and a warning at 20 minutes or less.
 - **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy
   mode on their own after 2 minutes.
 - **Tells you when something goes wrong.** If the character dies or stamina runs out, the account
   card shows it right away.
+- **In Portuguese or English.** Pick the language on the globe in the opening window, before the
+  accounts load. The first time, the app follows your system's language.
 - **Hides names for screenshots and streams.** One click blacks out the character names in the app
   and, inside the game, on the map, in the party and in the header.
 - **Updates itself.** On opening, IdleXP checks for a new version, downloads and installs it before

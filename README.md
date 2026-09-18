@@ -68,12 +68,15 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
 - **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado.
   Zoom ajustável e tela cheia.
 - **Modo economia.** A conta continua caçando, mas sem navegador aberto. No lugar do jogo fica um
-  painel com o que importa: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as **preys** ativas
-  e o **bestiário** da caçada, com quanto falta para cada fase.
+  painel com o que importa: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as **preys** ativas,
+  o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do equipamento,
+  com o tempo que resta em cada um e um aviso quando falta 20 minutos ou menos.
 - **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
   economia sozinhas depois de 2 minutos.
 - **Avisa quando algo dá errado.** Se o personagem morrer ou a stamina acabar, o cartão da conta
   mostra na hora.
+- **Em português ou em inglês.** A língua se escolhe no globo da janela de abertura, antes de entrar
+  nas contas. Na primeira vez o app segue a língua do sistema.
 - **Esconde os nomes para print e live.** Um clique tarja os nomes dos personagens no app e, dentro
   do jogo, no mapa, na party e no cabeçalho.
 - **Se atualiza sozinho.** Ao abrir, o IdleXP confere se há versão nova, baixa e instala antes de
