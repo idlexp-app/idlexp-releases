@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="imagens/painel-economia.png" alt="O painel do modo economia: XP por hora, profit, preys, bestiário da caçada e os imbuements do equipamento">
+  <img src="imagens/painel-economia.png" alt="O painel do modo economia: XP por hora, profit, preys, bestiário da caçada e os imbuements do equipamento, com a party na barra lateral">
   <br>
   <sub>O painel do modo economia. Imagem ilustrativa, com dados de exemplo.</sub>
 </p>
@@ -71,6 +71,8 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
   painel com o que importa: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as **preys** ativas,
   o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do equipamento,
   com o tempo que resta em cada um e um aviso quando falta 20 minutos ou menos.
+- **A party na barra lateral.** Com pelo menos uma conta em modo economia, a barra mostra a party
+  ordenada do maior dano para o menor, com **DPS**, cura e gasto de cada membro.
 - **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
   economia sozinhas depois de 2 minutos.
 - **Avisa quando algo dá errado.** Se o personagem morrer ou a stamina acabar, o cartão da conta
@@ -144,8 +146,11 @@ O IdleXP ainda não tem **assinatura digital paga**, e cada sistema reage a isso
   na página da versão, e o GitHub assina um atestado que qualquer pessoa confere com o
   [GitHub CLI](https://cli.github.com/):
   ```
+  gh release download -p IdleXP-Setup.exe -R idlexp-app/idlexp-releases
   gh release verify-asset IdleXP-Setup.exe -R idlexp-app/idlexp-releases
   ```
+  O comando confere o arquivo que está na pasta onde ele roda. Se já baixou pelo navegador, pule
+  a primeira linha e rode a segunda na pasta do download.
 - **Código de conferência (SHA-256).** As notas de cada versão trazem o código dos três arquivos,
   com o comando de cada sistema ao lado. O resultado tem que ser igual ao das notas. Se for
   diferente, não instale.

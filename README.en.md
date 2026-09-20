@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="imagens/painel-economia.png" alt="The economy mode panel: XP per hour, profit, preys, the hunt's bestiary and your gear's imbuements">
+  <img src="imagens/painel-economia.png" alt="The economy mode panel: XP per hour, profit, preys, the hunt's bestiary and your gear's imbuements, with the party in the sidebar">
   <br>
   <sub>The economy mode panel. Illustrative image, with sample data.</sub>
 </p>
@@ -71,6 +71,8 @@ numbers on your PC will be different; the ratio is what counts.</sub>
   is a panel with what matters: health, mana, stamina, level, **XP/h**, **Profit/h**, the active
   **preys**, the hunt's **bestiary**, with how much is left for each stage, and your gear's
   **imbuements**, with the time left on each one and a warning at 20 minutes or less.
+- **Your party in the sidebar.** With at least one account in economy mode, the sidebar shows the
+  party ordered from highest damage to lowest, with each member's **DPS**, healing and spend.
 - **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy
   mode on their own after 2 minutes.
 - **Tells you when something goes wrong.** If the character dies or stamina runs out, the account
@@ -145,8 +147,11 @@ IdleXP does not yet have a **paid digital signature**, and each system reacts to
   and GitHub signs an attestation that anyone can check with the
   [GitHub CLI](https://cli.github.com/):
   ```
+  gh release download -p IdleXP-Setup.exe -R idlexp-app/idlexp-releases
   gh release verify-asset IdleXP-Setup.exe -R idlexp-app/idlexp-releases
   ```
+  The command checks the file in the folder where it runs. If you already downloaded it with your
+  browser, skip the first line and run the second in the download folder.
 - **Checksum (SHA-256).** Each release's notes carry the checksum of all three files, with the
   command for each system beside it. The result has to match the notes. If it differs, do not
   install.

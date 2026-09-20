@@ -33,6 +33,14 @@ Dentro dela:
 | `diagnostico.log` | Registro técnico do que o app fez, para investigar um problema. Veja a seção abaixo |
 | `Cache`, `GPUCache`, `Local Storage` e as outras pastas soltas | O que o navegador embutido grava por conta própria para a janela do app: cache de arquivos baixados e de desenho, e as preferências dele. Os logins do jogo não ficam nelas — ficam em `Partitions` |
 
+**Como os logins ficam guardados.** Os cookies em `Partitions` ficam gravados no disco **sem
+cifragem**, nos três sistemas. O navegador Chrome cifra os seus com a proteção do sistema; o
+navegador embutido no IdleXP vem com essa cifragem desligada, e ela continua desligada de
+propósito: ligá-la mudaria o jeito como os quatro logins já salvos estão guardados, e eles não
+podem ser mexidos. O que protege a pasta é a sua conta no computador — outra conta sem direito
+de administrador não consegue abri-la. Quem usa a sua conta, um administrador, ou um programa
+rodando como você consegue. Se o computador é dividido, cada pessoa deve ter a própria conta.
+
 O IdleXP ocupa mais espaço fora dessa pasta, e nada disso guarda nada seu: o
 próprio programa, e o lugar onde a atualização deixa o que já baixou.
 

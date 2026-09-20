@@ -20,10 +20,17 @@ Intel e Apple Silicon no mesmo arquivo) e `IdleXP.AppImage` (Linux 64 bits).
    conferir o atestado assinado pelo GitHub, com o [GitHub CLI](https://cli.github.com/):
 
    ```
+   gh release download v1.2.3 -p IdleXP-Setup.exe -R idlexp-app/idlexp-releases
    gh release verify-asset v1.2.3 IdleXP-Setup.exe -R idlexp-app/idlexp-releases
    ```
 
-   Troque `v1.2.3` pela versão que você baixou, e o nome do arquivo pelo do seu sistema.
+   Troque `v1.2.3` pela versão que você baixou, e o nome do arquivo pelo do seu sistema. O
+   `verify-asset` confere o arquivo que está na pasta onde o comando roda: se você já baixou pelo
+   navegador, pule a primeira linha e rode a segunda na pasta do download.
+
+   Essa conferência garante que o arquivo é exatamente o que foi publicado aqui e que ninguém o
+   trocou depois. Ela não descreve como o arquivo foi compilado — o código do IdleXP não é
+   publicado.
 
 2. **Código de conferência (SHA-256).** As notas de cada versão trazem o código dos três arquivos.
    O comando muda com o sistema:

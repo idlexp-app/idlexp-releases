@@ -33,6 +33,14 @@ Inside it:
 | `diagnostico.log` | A technical log of what the app did, for investigating a problem. See the section below |
 | `Cache`, `GPUCache`, `Local Storage` and the other loose folders | What the embedded browser writes on its own for the app window: cached downloads and drawing, and its own preferences. The game logins are not in these — they are in `Partitions` |
 
+**How the logins are stored.** The cookies in `Partitions` are written to disk **unencrypted**,
+on all three systems. The Chrome browser encrypts its own with the system's protection; the
+browser embedded in IdleXP ships with that encryption off, and it stays off on purpose: turning
+it on would change how the four logins already saved are stored, and those must not be touched.
+What protects the folder is your account on the computer — another account without
+administrator rights cannot open it. Anyone using your account, an administrator, or a program
+running as you can. If the computer is shared, each person should have their own account.
+
 IdleXP takes up more space outside that folder, and none of it holds anything of
 yours: the program itself, and wherever the update leaves what it already
 downloaded.

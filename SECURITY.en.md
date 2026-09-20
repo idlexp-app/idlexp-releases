@@ -20,10 +20,17 @@ Every release carries three files, one per system: `IdleXP-Setup.exe` (Windows),
    signed by GitHub, with the [GitHub CLI](https://cli.github.com/):
 
    ```
+   gh release download v1.2.3 -p IdleXP-Setup.exe -R idlexp-app/idlexp-releases
    gh release verify-asset v1.2.3 IdleXP-Setup.exe -R idlexp-app/idlexp-releases
    ```
 
    Replace `v1.2.3` with the version you downloaded, and the file name with the one for your system.
+   `verify-asset` checks the file in the folder where the command runs: if you already downloaded
+   it with your browser, skip the first line and run the second in the download folder.
+
+   That check guarantees the file is exactly what was published here and that no one swapped it
+   afterwards. It does not describe how the file was built — IdleXP's source code is not
+   published.
 
 2. **Checksum (SHA-256).** Each release's notes carry the checksum of all three files. The command
    differs per system:
