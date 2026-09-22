@@ -71,6 +71,12 @@ dentro do app, exatamente como faria no navegador, e ela vai para o Huntera.
 Nenhum outro endereço. O app não busca fonte, ícone, script nem propaganda de
 lugar nenhum: a interface inteira é empacotada dentro do executável.
 
+**Há uma coisa que o app pede ao SEU navegador para abrir, e só no seu clique:**
+a janela de apoio tem um botão que entrega `ko-fi.com/idlexp` ao navegador do
+sistema, e para aí. O IdleXP não conversa com o Ko-fi e não manda nada para ele —
+dali em diante quem está na conversa é você e o Ko-fi, nos termos dele. O
+endereço fica escrito na tela antes do clique, e sem o clique nada acontece.
+
 ## Sobre o `diagnostico.log`
 
 É o arquivo que a gente pede quando você relata um problema, e ele merece ser
