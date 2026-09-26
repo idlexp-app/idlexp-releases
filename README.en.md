@@ -66,21 +66,26 @@ numbers on your PC will be different; the ratio is what counts.</sub>
 - **Four accounts, four saved logins.** Each account has its own space: one cannot see another, and
   you do not have to sign in again every time you open the app.
 - **The screen your way.** From 1 to 4 screens side by side, or one large one with the others
-  alongside. Adjustable zoom and full screen.
+  alongside, and the layouts turn with a monitor standing up. Drag the sidebar cards to swap the
+  accounts around, and collapse the sidebar to give the game more room. Adjustable zoom and full
+  screen.
 - **Economy mode.** The account keeps hunting, but with no browser open. In place of the game there
   is a panel with what matters: health, mana, stamina, level, **XP/h**, **Profit/h**, the active
   **preys**, the hunt's **bestiary**, with how much is left for each stage, and your gear's
-  **imbuements**, with the time left on each one and a warning at 20 minutes or less.
+  **imbuements**, with the time left on each one and a warning at the time you choose.
 - **Your party in the sidebar.** With at least one account in economy mode, the sidebar shows the
   party ordered from highest damage to lowest, with each member's **DPS**, healing and spend.
 - **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy
   mode on their own after 2 minutes.
-- **Tells you when something goes wrong.** If the character dies or stamina runs out, the account
-  card shows it right away.
+- **Alerts you even with the app out of sight.** When an account in economy mode needs you — the
+  hunt stopped, the character died, or stamina, a prey or an imbuement is running out — a system
+  notification arrives, the icon flashes and a sound plays. On the bell in the sidebar you choose
+  what alerts you, how far ahead and how.
 - **In Portuguese or English.** Pick the language on the globe in the opening window, before the
   accounts load. The first time, the app follows your system's language.
 - **Hides names for screenshots and streams.** One click blacks out the character names in the app
-  and, inside the game, on the map, in the party and in the header.
+  and, inside the game, on the map, in the party, in the header, in the Hunt Analyzer and in the friends
+  and guild lists.
 - **Updates itself.** On opening, IdleXP checks for a new version, downloads and installs it before
   any account opens. You download once. (On the Mac it tells you and brings you here — see below.)
 

@@ -65,22 +65,25 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
 
 - **Quatro contas, quatro logins salvos.** Cada conta tem o seu próprio espaço: uma não enxerga a
   outra, e você não precisa entrar de novo toda vez que abre o app.
-- **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado.
-  Zoom ajustável e tela cheia.
+- **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado, e os
+  arranjos giram com o monitor em pé. Arraste os cartões da barra para trocar as contas de lugar, e
+  recolha a barra para dar mais espaço ao jogo. Zoom ajustável e tela cheia.
 - **Modo economia.** A conta continua caçando, mas sem navegador aberto. No lugar do jogo fica um
   painel com o que importa: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as **preys** ativas,
   o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do equipamento,
-  com o tempo que resta em cada um e um aviso quando falta 20 minutos ou menos.
+  com o tempo que resta em cada um e um aviso no tempo que você escolher.
 - **A party na barra lateral.** Com pelo menos uma conta em modo economia, a barra mostra a party
   ordenada do maior dano para o menor, com **DPS**, cura e gasto de cada membro.
 - **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
   economia sozinhas depois de 2 minutos.
-- **Avisa quando algo dá errado.** Se o personagem morrer ou a stamina acabar, o cartão da conta
-  mostra na hora.
+- **Avisa mesmo com o app fora da tela.** Quando uma conta em modo economia pede atenção — a caçada
+  parou, o personagem morreu, ou a stamina, uma prey ou um imbuement está acabando —, chega uma
+  notificação do sistema, o ícone pisca e toca um som. No sino da barra você escolhe o que avisa,
+  com quanto tempo de antecedência e de que jeito.
 - **Em português ou em inglês.** A língua se escolhe no globo da janela de abertura, antes de entrar
   nas contas. Na primeira vez o app segue a língua do sistema.
 - **Esconde os nomes para print e live.** Um clique tarja os nomes dos personagens no app e, dentro
-  do jogo, no mapa, na party e no cabeçalho.
+  do jogo, no mapa, na party, no cabeçalho, no Analisador de caçada e nas listas de amigos e da guild.
 - **Se atualiza sozinho.** Ao abrir, o IdleXP confere se há versão nova, baixa e instala antes de
   qualquer conta abrir. Você baixa uma vez só. (No Mac ele avisa e traz você até aqui — veja abaixo.)
 
