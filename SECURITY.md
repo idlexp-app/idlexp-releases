@@ -51,8 +51,9 @@ O IdleXP ainda não tem assinatura digital paga, e cada sistema reage a isso de 
   arquivo novo, não de arquivo perigoso. Clique em **Mais informações** e depois em **Executar
   assim mesmo**.
 - **macOS.** O Gatekeeper diz que não foi possível verificar o desenvolvedor. Vá em **Ajustes do
-  Sistema › Privacidade e Segurança** e clique em **Abrir assim mesmo**. Pela mesma razão, no Mac o
-  app **não** instala atualização sozinho: ele avisa que existe e leva você até esta página.
+  Sistema › Privacidade e Segurança** e clique em **Abrir assim mesmo**. Com o app na pasta
+  Aplicativos a atualização é automática, e só entra se vier assinada pelo nosso certificado; fora
+  dela o app só avisa que existe versão nova.
 - **Linux.** Não há aviso nenhum, e a atualização é automática.
 
 ## O que protege quem usa

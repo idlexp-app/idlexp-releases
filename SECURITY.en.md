@@ -50,8 +50,9 @@ IdleXP does not yet have a paid digital signature, and each system reacts to tha
 - **Windows.** SmartScreen shows "Windows protected your PC" the first time. It is the warning for a
   new file, not for a dangerous one. Click **More info** and then **Run anyway**.
 - **macOS.** Gatekeeper says the developer could not be verified. Go to **System Settings › Privacy
-  & Security** and click **Open Anyway**. For the same reason, on the Mac the app does **not**
-  install updates by itself: it tells you one exists and brings you to this page.
+  & Security** and click **Open Anyway**. With the app in the Applications folder updating is
+  automatic, and an update only gets in if it is signed with our certificate; anywhere else the app
+  only says a new version exists.
 - **Linux.** There is no warning at all, and updating is automatic.
 
 ## What protects the people who use it

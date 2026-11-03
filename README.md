@@ -111,8 +111,9 @@ O instalador não pede senha de administrador e instala só para o seu usuário.
    Sistema › Privacidade e Segurança**, role até o aviso do IdleXP e clique em **Abrir assim
    mesmo**. É uma vez só.
 
-**No Mac o IdleXP não se atualiza sozinho.** Ele confere se existe versão nova e avisa na tela de
-abertura, com o endereço desta página para você baixar. O motivo está em "É seguro?", abaixo.
+**No Mac o IdleXP se atualiza sozinho, desde que esteja na pasta Aplicativos.** Aberto de outro
+lugar, ele só avisa na tela de abertura que existe versão nova. Quem ainda está na 0.8.0 ou antes
+baixa o `.dmg` desta página uma última vez: só as versões depois dela sabem se instalar.
 
 ### Linux (64 bits)
 
@@ -139,7 +140,7 @@ O IdleXP ainda não tem **assinatura digital paga**, e cada sistema reage a isso
 | Sistema | O que aparece | O que significa |
 | --- | --- | --- |
 | **Windows** | "O Windows protegeu o computador" (tela azul do SmartScreen) | "o Windows ainda não conhece este arquivo", e não "este arquivo é perigoso". Conforme mais pessoas baixam, o aviso tende a sumir |
-| **macOS** | "não foi possível verificar o desenvolvedor" | a Apple cobra US$99/ano para identificar desenvolvedores, e nós não pagamos. É também por isso que o Mac não se atualiza sozinho: o macOS recusa instalar atualização de app sem assinatura |
+| **macOS** | "não foi possível verificar o desenvolvedor" | a Apple cobra US$99/ano para identificar desenvolvedores, e nós não pagamos. O app é assinado por um certificado nosso, que o macOS não reconhece: ele não tira o aviso, mas é o que garante que uma atualização só entra se vier de nós |
 | **Linux** | nada | o AppImage abre direto, e se atualiza sozinho |
 
 ### Como conferir que o arquivo é o original
@@ -177,8 +178,8 @@ Os detalhes estão na [nota de privacidade](PRIVACIDADE.md) e na [política de s
 
 ## Dúvidas comuns
 
-**Funciona no Mac?** Funciona, em Intel e Apple Silicon, no mesmo arquivo. A diferença é que no Mac
-ele não instala atualização sozinho: avisa que saiu uma e traz você até aqui.
+**Funciona no Mac?** Funciona, em Intel e Apple Silicon, no mesmo arquivo. Para se atualizar
+sozinho, ele precisa estar na pasta Aplicativos.
 
 **E no Linux?** Também, pelo AppImage de 64 bits — sem instalar e sem pedir senha. Essa é a
 primeira versão do IdleXP para Linux; se algo não funcionar na sua distribuição, nos conte numa

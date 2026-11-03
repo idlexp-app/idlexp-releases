@@ -2,7 +2,7 @@
 
 # Nota de privacidade do IdleXP
 
-Última atualização: 16/09/2026.
+Última atualização: 02/11/2026.
 
 **O IdleXP não tem servidor, não tem conta e não envia nada para nós.** Tudo o
 que ele guarda fica no seu computador, e a única coisa com que ele conversa é o
@@ -29,7 +29,9 @@ Dentro dela:
 | --- | --- |
 | `Partitions/idlexp-account-{1..4}` | Os quatro logins do jogo — cookies e armazenamento que **o próprio site do Huntera** grava. O IdleXP não lê essas credenciais: ele só mantém as quatro separadas, para que uma conta não enxergue a outra |
 | `settings.json` | Suas preferências de tela, e só isso: o zoom, quantas telas, o arranjo (grade ou principal), quais contas estão em economia e se o olho dos nomes está ligado |
-| `sprites/` | Cache das imagens de monstro que o painel de economia mostra, baixadas do próprio Huntera |
+| `logins.json` | Só existe se você escolher salvar um login: e-mail e senha de cada conta, cifrados pelo cofre do sistema |
+| `grimorium.json` | Os registros do Grimório, **por personagem, com o nome dele**: a cópia do catálogo de caçadas do jogo, a vocação, os recordes e a soma das suas sessões (tempo, experiência, ganhos, gastos, abates por monstro e a data da última), e o último personagem visto em cada uma das quatro contas. Fica só no seu computador e nunca sai dele |
+| `sprites/` | Cache das imagens que o painel de economia e o Grimório mostram — monstros e itens —, baixadas do próprio Huntera |
 | `diagnostico.log` | Registro técnico do que o app fez, para investigar um problema. Veja a seção abaixo |
 | `Cache`, `GPUCache`, `Local Storage` e as outras pastas soltas | O que o navegador embutido grava por conta própria para a janela do app: cache de arquivos baixados e de desenho, e as preferências dele. Os logins do jogo não ficam nelas — ficam em `Partitions` |
 
@@ -47,17 +49,21 @@ próprio programa, e o lugar onde a atualização deixa o que já baixou.
 | Sistema | O programa | A atualização |
 | --- | --- | --- |
 | Windows | `%LOCALAPPDATA%\Programs\IdleXP` | `%LOCALAPPDATA%\idlexp-updater`, com uma cópia do instalador que serve para baixar só o que mudou da próxima vez |
-| macOS | o `IdleXP.app` que você arrastou para Aplicativos | nada: no Mac o app não instala atualização sozinho, só avisa que existe |
+| macOS | o `IdleXP.app` que você arrastou para Aplicativos | `~/Library/Caches/idlexp-updater`, com uma cópia do pacote baixado, e `~/Library/Caches/com.idlexp.app.ShipIt`, usado enquanto o app se troca |
 | Linux | o arquivo `IdleXP.AppImage`, onde você o deixou | `~/.cache/idlexp-updater`, usado enquanto a atualização baixa |
 
-Não guardamos senha, e-mail, forma de pagamento nem nada parecido — o IdleXP
-nunca pede essas coisas. Sua senha do jogo você digita na página do Huntera
-dentro do app, exatamente como faria no navegador, e ela vai para o Huntera.
+Não guardamos forma de pagamento nem nada parecido. Sua senha do jogo você digita na
+página do Huntera dentro do app, exatamente como faria no navegador, e ela vai para o
+Huntera. **A única exceção é escolha sua:** depois de um login que deu certo, o app
+pergunta se quer salvar o e-mail e a senha daquela conta. Se você responder "Salvar",
+os dois ficam em `logins.json`, cifrados pelo cofre do próprio sistema, nunca saem da
+sua máquina e só voltam para preencher a página de login daquela conta. Sem o seu sim,
+nada é guardado.
 
 ## Com quem o app conversa
 
 - **`huntera.com.br`** — a página do jogo, a conexão de leitura que acompanha
-  o personagem em modo economia, e as imagens que o painel mostra.
+  o personagem em modo economia, e as imagens que o painel e o Grimório mostram.
 - **O provedor de login que o próprio Huntera usar**, se o jogo mandar você a
   um serviço externo para entrar. Quem escolhe esse serviço é o jogo, não nós.
 - **O GitHub, para perguntar se existe versão nova.** Acontece toda vez que o
@@ -99,9 +105,11 @@ descrito por inteiro:
 ## O nome do personagem
 
 O nome que aparece em cada cartão é lido do jogo, ao vivo. Ele não é escolhido
-por você, não fica guardado em arquivo nenhum além do `diagnostico.log` (veja
-acima) e some da tela junto com a sessão — é assim que o app sabe quais contas
-estão no ar. O olho na barra tarja esse nome nos
+por você e some da tela junto com a sessão — é assim que o app sabe quais contas
+estão no ar. Em arquivo, ele fica em dois lugares: no `diagnostico.log` (veja
+acima) e no `grimorium.json`, onde o Grimório guarda os recordes de cada
+personagem sob o nome dele, de propósito, para que o histórico dure mais que a
+sessão. Esse arquivo também fica só no seu computador. O olho na barra tarja esse nome nos
 quatro cartões, nos painéis de economia e também dentro da página do jogo, para
 quem vai printar ou transmitir.
 
@@ -109,7 +117,7 @@ quem vai printar ou transmitir.
 
 Feche o IdleXP e apague a pasta de dados da tabela lá de cima — `%APPDATA%\idlexp`
 no Windows, `~/Library/Application Support/idlexp` no macOS ou `~/.config/idlexp`
-no Linux. Isso remove os logins, as preferências, o cache e o log de uma vez — **e
+no Linux. Isso remove os logins, as preferências, o cache, o log e os registros do Grimório de uma vez — **e
 desloga as quatro contas.** Tirar o app não apaga essa pasta, de propósito: quem
 desinstala para reinstalar não deveria ter que logar quatro vezes de novo.
 

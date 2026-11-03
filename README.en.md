@@ -113,9 +113,10 @@ The installer never asks for an administrator password and installs for your use
 3. The first time, macOS says the developer could not be verified. Go to **System Settings ›
    Privacy & Security**, scroll to the IdleXP warning and click **Open Anyway**. Once only.
 
-**On the Mac, IdleXP does not update itself.** It checks whether a new version exists and says so on
-the opening screen, with the address of this page for you to download it. The reason is under "Is it
-safe?", below.
+**On the Mac, IdleXP updates itself as long as it is in the Applications folder.** Opened from
+anywhere else, it only says on the opening screen that a new version exists. If you are still on
+0.8.0 or earlier, download the `.dmg` from this page one last time: only later versions know how
+to install themselves.
 
 ### Linux (64-bit)
 
@@ -142,7 +143,7 @@ IdleXP does not yet have a **paid digital signature**, and each system reacts to
 | System | What appears | What it means |
 | --- | --- | --- |
 | **Windows** | "Windows protected your PC" (the blue SmartScreen screen) | "Windows does not know this file yet", not "this file is dangerous". As more people download it, the warning tends to go away |
-| **macOS** | "cannot verify the developer" | Apple charges US$99/year to identify developers, and we do not pay it. That is also why the Mac does not update itself: macOS refuses to install an update to an unsigned app |
+| **macOS** | "cannot verify the developer" | Apple charges US$99/year to identify developers, and we do not pay it. The app is signed with a certificate of our own, which macOS does not recognize: it does not remove the warning, but it is what ensures an update only gets in if it came from us |
 | **Linux** | nothing | the AppImage opens straight away, and updates itself |
 
 ### How to check that the file is the original
@@ -179,9 +180,8 @@ The details are in the [privacy notice](PRIVACY.md) and in the [security policy]
 
 ## Common questions
 
-**Does it work on the Mac?** It does, on Intel and Apple Silicon, from the same file. The difference
-is that on the Mac it does not install updates by itself: it tells you one is out and brings you
-here.
+**Does it work on the Mac?** It does, on Intel and Apple Silicon, from the same file. To update
+itself, it needs to be in the Applications folder.
 
 **And on Linux?** Yes, through the 64-bit AppImage — no installation and no password prompt. This is
 IdleXP's first release for Linux; if something does not work on your distribution, tell us in an
