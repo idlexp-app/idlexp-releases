@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="imagens/painel-economia.png" alt="O painel do modo economia: XP por hora, profit, preys, bestiário da caçada e os imbuements do equipamento, com a party na barra lateral">
+  <img src="imagens/painel-economia.png" alt="O painel do modo economia, em três colunas: XP por hora, profit, preys, imbuements do equipamento e bestiário da caçada, com as contas e a party na barra lateral">
   <br>
   <sub>O painel do modo economia. Imagem ilustrativa, com dados de exemplo.</sub>
 </p>
@@ -64,14 +64,19 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
 ## O que ele faz
 
 - **Quatro contas, quatro logins salvos.** Cada conta tem o seu próprio espaço: uma não enxerga a
-  outra, e você não precisa entrar de novo toda vez que abre o app.
+  outra, e você não precisa entrar de novo toda vez que abre o app. Se quiser, o app guarda o e-mail
+  e a senha de cada conta, cifrados pelo cofre do seu sistema, e preenche a página de login.
 - **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado, e os
   arranjos giram com o monitor em pé. Arraste os cartões da barra para trocar as contas de lugar, e
   recolha a barra para dar mais espaço ao jogo. Zoom ajustável e tela cheia.
 - **Modo economia.** A conta continua caçando, mas sem navegador aberto. No lugar do jogo fica um
-  painel com o que importa: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as **preys** ativas,
-  o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do equipamento,
-  com o tempo que resta em cada um e um aviso no tempo que você escolher.
+  painel em seções que recolhem com um clique: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as
+  **preys** ativas, o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do
+  equipamento, com o tempo que resta em cada um e um aviso no tempo que você escolher. Funciona
+  também em **bosses e eventos**, com o nome do boss e o **roteiro de bosses**, os que já caíram riscados.
+- **Grimório.** Uma janela de ferramentas, e a primeira é o ranking de caçadas: escolha a conta e veja
+  quais dão mais **XP/h** e mais **Profit/h**, com um mapa comparando as melhores, o loot de cada uma e
+  busca pelo nome da caçada ou do monstro. Os recordes vêm do próprio jogo, e tudo fica no seu computador.
 - **A party na barra lateral.** Com pelo menos uma conta em modo economia, a barra mostra a party
   ordenada do maior dano para o menor, com **DPS**, cura e gasto de cada membro.
 - **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
@@ -85,10 +90,16 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
 - **Esconde os nomes para print e live.** Um clique tarja os nomes dos personagens no app e, dentro
   do jogo, no mapa, na party, no cabeçalho, no Analisador de caçada e nas listas de amigos e da guild.
 - **Se atualiza sozinho.** Ao abrir, o IdleXP confere se há versão nova, baixa e instala antes de
-  qualquer conta abrir. Você baixa uma vez só. (No Mac ele avisa e traz você até aqui — veja abaixo.)
+  qualquer conta abrir. Você baixa uma vez só. (No Mac, desde que esteja na pasta Aplicativos — veja abaixo.)
 
 > O modo economia acompanha o personagem enquanto ele caça offline (VIP). Ele não mantém uma
 > caçada que o jogo não manteria.
+
+<p align="center">
+  <img src="imagens/grimorio.png" alt="O Grimório: o ranking de caçadas por XP e por profit, a ficha da caçada selecionada com o loot por raridade, e o mapa comparando as melhores">
+  <br>
+  <sub>O Grimório. Imagem ilustrativa, com dados de exemplo.</sub>
+</p>
 
 ## Instalar
 
@@ -163,8 +174,9 @@ O IdleXP ainda não tem **assinatura digital paga**, e cada sistema reage a isso
 
 ### O que o IdleXP nunca faz
 
-- **Não guarda a sua senha.** Você entra na página do próprio Huntera, dentro do app, como faria no
-  navegador. A senha vai para o Huntera.
+- **Não guarda a sua senha sem você pedir.** Você entra na página do próprio Huntera, dentro do app,
+  como faria no navegador, e a senha vai para o Huntera. Depois de entrar, o app pergunta se quer
+  salvar o login: só com o seu sim ele fica guardado, cifrado, e nunca sai do seu computador.
 - **Não manda nada para nós.** Não existe servidor do IdleXP, cadastro, telemetria nem anúncio. O
   app só conversa com o Huntera e com este repositório, para saber se há versão nova.
 - **Não joga por você.** O modo economia só **lê** o que acontece com o personagem. O IdleXP não
@@ -181,8 +193,8 @@ Os detalhes estão na [nota de privacidade](PRIVACIDADE.md) e na [política de s
 **Funciona no Mac?** Funciona, em Intel e Apple Silicon, no mesmo arquivo. Para se atualizar
 sozinho, ele precisa estar na pasta Aplicativos.
 
-**E no Linux?** Também, pelo AppImage de 64 bits — sem instalar e sem pedir senha. Essa é a
-primeira versão do IdleXP para Linux; se algo não funcionar na sua distribuição, nos conte numa
+**E no Linux?** Também, pelo AppImage de 64 bits — sem instalar e sem pedir senha. O Linux
+é o sistema mais novo do IdleXP; se algo não funcionar na sua distribuição, nos conte numa
 issue.
 
 **Onde ficam os meus logins?** No seu computador: `%APPDATA%\idlexp` no Windows,

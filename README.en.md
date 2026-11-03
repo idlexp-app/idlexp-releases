@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="imagens/painel-economia.png" alt="The economy mode panel: XP per hour, profit, preys, the hunt's bestiary and your gear's imbuements, with the party in the sidebar">
+  <img src="imagens/painel-economia.en.png" alt="The economy mode panel, in three columns: XP per hour, profit, preys, your gear's imbuements and the hunt's bestiary, with the accounts and the party in the sidebar">
   <br>
   <sub>The economy mode panel. Illustrative image, with sample data.</sub>
 </p>
@@ -64,15 +64,20 @@ numbers on your PC will be different; the ratio is what counts.</sub>
 ## What it does
 
 - **Four accounts, four saved logins.** Each account has its own space: one cannot see another, and
-  you do not have to sign in again every time you open the app.
+  you do not have to sign in again every time you open the app. If you want, the app keeps each
+  account's e-mail and password, encrypted by your system's vault, and fills in the login page.
 - **The screen your way.** From 1 to 4 screens side by side, or one large one with the others
   alongside, and the layouts turn with a monitor standing up. Drag the sidebar cards to swap the
   accounts around, and collapse the sidebar to give the game more room. Adjustable zoom and full
   screen.
 - **Economy mode.** The account keeps hunting, but with no browser open. In place of the game there
-  is a panel with what matters: health, mana, stamina, level, **XP/h**, **Profit/h**, the active
-  **preys**, the hunt's **bestiary**, with how much is left for each stage, and your gear's
-  **imbuements**, with the time left on each one and a warning at the time you choose.
+  is a panel in sections that collapse with a click: health, mana, stamina, level, **XP/h**,
+  **Profit/h**, the active **preys**, the hunt's **bestiary**, with how much is left for each stage, and
+  your gear's **imbuements**, with the time left on each one and a warning at the time you choose. It
+  also works during **bosses and events**, with the boss name and the **boss route**, the defeated ones crossed out.
+- **Grimoire.** A tools window, and the first tool is the hunt ranking: pick an account and see which
+  hunts give the most **XP/h** and the most **Profit/h**, with a map comparing the best ones, the loot of
+  each hunt and a search by hunt or monster name. Records come from the game itself, and everything stays on your computer.
 - **Your party in the sidebar.** With at least one account in economy mode, the sidebar shows the
   party ordered from highest damage to lowest, with each member's **DPS**, healing and spend.
 - **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy
@@ -87,10 +92,16 @@ numbers on your PC will be different; the ratio is what counts.</sub>
   and, inside the game, on the map, in the party, in the header, in the Hunt Analyzer and in the friends
   and guild lists.
 - **Updates itself.** On opening, IdleXP checks for a new version, downloads and installs it before
-  any account opens. You download once. (On the Mac it tells you and brings you here — see below.)
+  any account opens. You download once. (On the Mac, as long as it is in the Applications folder — see below.)
 
 > Economy mode follows the character while it hunts offline (VIP). It does not keep a hunt going
 > that the game would not keep going.
+
+<p align="center">
+  <img src="imagens/grimorio.en.png" alt="The Grimoire: the hunt ranking by XP and by profit, the sheet of the selected hunt with its loot by rarity, and the map comparing the best ones">
+  <br>
+  <sub>The Grimoire. Illustrative image, with sample data.</sub>
+</p>
 
 ## Install
 
@@ -165,8 +176,9 @@ IdleXP does not yet have a **paid digital signature**, and each system reacts to
 
 ### What IdleXP never does
 
-- **It does not keep your password.** You sign in on Huntera's own page, inside the app, just as you
-  would in a browser. The password goes to Huntera.
+- **It does not keep your password unless you ask.** You sign in on Huntera's own page, inside the
+  app, just as you would in a browser, and the password goes to Huntera. After you sign in, the app asks
+  whether to save the login: only with your yes is it kept, encrypted, and it never leaves your computer.
 - **It does not send anything to us.** There is no IdleXP server, no sign-up, no telemetry and no
   advertising. The app talks only to Huntera and to this repository, to check for a new version.
 - **It does not play for you.** Economy mode only **reads** what happens to the character. IdleXP
@@ -183,8 +195,8 @@ The details are in the [privacy notice](PRIVACY.md) and in the [security policy]
 **Does it work on the Mac?** It does, on Intel and Apple Silicon, from the same file. To update
 itself, it needs to be in the Applications folder.
 
-**And on Linux?** Yes, through the 64-bit AppImage — no installation and no password prompt. This is
-IdleXP's first release for Linux; if something does not work on your distribution, tell us in an
+**And on Linux?** Yes, through the 64-bit AppImage — no installation and no password prompt. Linux is
+IdleXP's newest system; if something does not work on your distribution, tell us in an
 issue.
 
 **Where are my logins kept?** On your computer: `%APPDATA%\idlexp` on Windows,
