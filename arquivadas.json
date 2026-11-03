@@ -33,5 +33,10 @@
     "IdleXP-Setup.exe": 156,
     "IdleXP.dmg": 15,
     "IdleXP.AppImage": 6
+  },
+  "v0.8.0": {
+    "IdleXP-Setup.exe": 424,
+    "IdleXP.dmg": 31,
+    "IdleXP.AppImage": 32
   }
 }
