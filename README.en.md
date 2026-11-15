@@ -68,16 +68,18 @@ numbers on your PC will be different; the ratio is what counts.</sub>
   account's e-mail and password, encrypted by your system's vault, and fills in the login page.
 - **The screen your way.** From 1 to 4 screens side by side, or one large one with the others
   alongside, and the layouts turn with a monitor standing up. Drag the sidebar cards to swap the
-  accounts around, and collapse the sidebar to give the game more room. Adjustable zoom and full
-  screen.
+  accounts around, and collapse the sidebar to give the game more room. F1 to F4 switch accounts
+  from the keyboard (on the Mac, Cmd+1 to Cmd+4). Adjustable zoom and full screen.
 - **Economy mode.** The account keeps hunting, but with no browser open. In place of the game there
   is a panel in sections that collapse with a click: health, mana, stamina, level, **XP/h**,
   **Profit/h**, the active **preys**, the hunt's **bestiary**, with how much is left for each stage, and
   your gear's **imbuements**, with the time left on each one and a warning at the time you choose. It
   also works during **bosses and events**, with the boss name and the **boss route**, the defeated ones crossed out.
-- **Grimoire.** A tools window, and the first tool is the hunt ranking: pick an account and see which
+- **Grimoire.** A tools window with two tabs. In the hunt ranking, pick an account and see which
   hunts give the most **XP/h** and the most **Profit/h**, with a map comparing the best ones, the loot of
-  each hunt and a search by hunt or monster name. Records come from the game itself, and everything stays on your computer.
+  each hunt and a search by hunt or monster name. In the **Bestiary**, see your kills per monster, how
+  long until each one is done, which hunts give the most bestiary per hour of stamina, and a route in
+  the most efficient order. The numbers come from the game itself, and everything stays on your computer.
 - **Your party in the sidebar.** With at least one account in economy mode, the sidebar shows the
   party ordered from highest damage to lowest, with each member's **DPS**, healing and spend.
 - **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy

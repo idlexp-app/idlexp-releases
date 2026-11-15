@@ -68,15 +68,18 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
   e a senha de cada conta, cifrados pelo cofre do seu sistema, e preenche a página de login.
 - **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado, e os
   arranjos giram com o monitor em pé. Arraste os cartões da barra para trocar as contas de lugar, e
-  recolha a barra para dar mais espaço ao jogo. Zoom ajustável e tela cheia.
+  recolha a barra para dar mais espaço ao jogo. F1 a F4 trocam de conta pelo teclado (no Mac,
+  Cmd+1 a Cmd+4). Zoom ajustável e tela cheia.
 - **Modo economia.** A conta continua caçando, mas sem navegador aberto. No lugar do jogo fica um
   painel em seções que recolhem com um clique: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as
   **preys** ativas, o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do
   equipamento, com o tempo que resta em cada um e um aviso no tempo que você escolher. Funciona
   também em **bosses e eventos**, com o nome do boss e o **roteiro de bosses**, os que já caíram riscados.
-- **Grimório.** Uma janela de ferramentas, e a primeira é o ranking de caçadas: escolha a conta e veja
+- **Grimório.** Uma janela de ferramentas com duas abas. No ranking de caçadas, escolha a conta e veja
   quais dão mais **XP/h** e mais **Profit/h**, com um mapa comparando as melhores, o loot de cada uma e
-  busca pelo nome da caçada ou do monstro. Os recordes vêm do próprio jogo, e tudo fica no seu computador.
+  busca pelo nome da caçada ou do monstro. No **Bestiário**, veja seus abates por monstro, quanto falta
+  para fechar cada um, quais caçadas rendem mais bestiário por hora de stamina e um roteiro na ordem
+  mais eficiente. Os números vêm do próprio jogo, e tudo fica no seu computador.
 - **A party na barra lateral.** Com pelo menos uma conta em modo economia, a barra mostra a party
   ordenada do maior dano para o menor, com **DPS**, cura e gasto de cada membro.
 - **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
