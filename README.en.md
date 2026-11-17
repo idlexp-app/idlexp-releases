@@ -31,10 +31,50 @@
 
 ---
 
+## What you get
+
+- **Every account's XP/h and Profit/h, live**, without having to open any of their games.
+- **The hunt that pays best**, in an XP and a profit ranking with each hunt's loot.
+- **Your bestiary finished faster**, with a route of hunts in the most efficient order.
+- **A warning the moment** the hunt stops, the character dies or stamina, a prey or an imbuement
+  is running out.
+- **Four accounts and a calm PC**: up to 96% less processor with economy mode.
+
+### Every account's Hunt Analyzer, without opening the game
+
+In **economy mode** the account keeps hunting with the browser closed, and in place of the game
+there is this panel: XP/h, Profit/h and margin, the preys with the time left, the imbuements on
+each piece of gear and the hunt's bestiary, with how much is left for each stage. In the sidebar,
+the whole party with each member's DPS, healing and spend.
+
 <p align="center">
   <img src="imagens/painel-economia.en.png" alt="The economy mode panel, in three columns: XP per hour, profit, preys, your gear's imbuements and the hunt's bestiary, with the accounts and the party in the sidebar">
   <br>
   <sub>The economy mode panel. Illustrative image, with sample data.</sub>
+</p>
+
+### Which hunt gives the most XP and profit
+
+The **Grimoire** keeps the record of every hunt you have done, per account and per mode, party or
+solo. Two rankings side by side, each hunt's loot by rarity and a map that compares the best ones
+at a glance.
+
+<p align="center">
+  <img src="imagens/grimorio.en.png" alt="The Grimoire: the hunt ranking by XP and by profit, the sheet of the selected hunt with its loot by rarity, and the map comparing the best ones">
+  <br>
+  <sub>The Grimoire, Hunts tab. Illustrative image, with sample data.</sub>
+</p>
+
+### The shortest way through the bestiary
+
+On the **Bestiary** tab, the Grimoire crosses your kills with each hunt's speed and tells you which
+hunts give the most bestiary per hour of stamina, how long until each monster is done, and a route
+in the most efficient order, for the next level or for the next damage bonus.
+
+<p align="center">
+  <img src="imagens/bestiario.en.png" alt="The Grimoire's Bestiary: the hunts that give the most bestiary per hour, the fastest monsters to close, the sheet of the selected hunt with each monster's progress, and the most efficient route">
+  <br>
+  <sub>The Grimoire, Bestiary tab. Illustrative image, with sample data.</sub>
 </p>
 
 ## Why IdleXP
@@ -61,15 +101,8 @@ And each account that leaves the screen, on its own: from **776 MB and 27% of on
 same hunt and one signed out, two 60-second windows, the only difference being economy mode. The
 numbers on your PC will be different; the ratio is what counts.</sub>
 
-## What it does
+## Everything it does
 
-- **Four accounts, four saved logins.** Each account has its own space: one cannot see another, and
-  you do not have to sign in again every time you open the app. If you want, the app keeps each
-  account's e-mail and password, encrypted by your system's vault, and fills in the login page.
-- **The screen your way.** From 1 to 4 screens side by side, or one large one with the others
-  alongside, and the layouts turn with a monitor standing up. Drag the sidebar cards to swap the
-  accounts around, and collapse the sidebar to give the game more room. F1 to F4 switch accounts
-  from the keyboard (on the Mac, Cmd+1 to Cmd+4). Adjustable zoom and full screen.
 - **Economy mode.** The account keeps hunting, but with no browser open. In place of the game there
   is a panel in sections that collapse with a click: health, mana, stamina, level, **XP/h**,
   **Profit/h**, the active **preys**, the hunt's **bestiary**, with how much is left for each stage, and
@@ -82,28 +115,29 @@ numbers on your PC will be different; the ratio is what counts.</sub>
   the most efficient order. The numbers come from the game itself, and everything stays on your computer.
 - **Your party in the sidebar.** With at least one account in economy mode, the sidebar shows the
   party ordered from highest damage to lowest, with each member's **DPS**, healing and spend.
-- **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy
-  mode on their own after 2 minutes.
 - **Alerts you even with the app out of sight.** When an account in economy mode needs you — the
   hunt stopped, the character died, or stamina, a prey or an imbuement is running out — a system
   notification arrives, the icon flashes and a sound plays. On the bell in the sidebar you choose
   what alerts you, how far ahead and how.
-- **In Portuguese or English.** Pick the language on the globe in the opening window, before the
-  accounts load. The first time, the app follows your system's language.
+- **Automatic economy.** In the 1-to-3-screen layouts, accounts that stay off screen enter economy
+  mode on their own after 2 minutes.
+- **Four accounts, four saved logins.** Each account has its own space: one cannot see another, and
+  you do not have to sign in again every time you open the app. If you want, the app keeps each
+  account's e-mail and password, encrypted by your system's vault, and fills in the login page.
+- **The screen your way.** From 1 to 4 screens side by side, or one large one with the others
+  alongside, and the layouts turn with a monitor standing up. Drag the sidebar cards to swap the
+  accounts around, and collapse the sidebar to give the game more room. F1 to F4 switch accounts
+  from the keyboard (on the Mac, Cmd+1 to Cmd+4). Adjustable zoom and full screen.
 - **Hides names for screenshots and streams.** One click blacks out the character names in the app
   and, inside the game, on the map, in the party, in the header, in the Hunt Analyzer and in the friends
   and guild lists.
+- **In Portuguese or English.** Pick the language on the globe in the opening window, before the
+  accounts load. The first time, the app follows your system's language.
 - **Updates itself.** On opening, IdleXP checks for a new version, downloads and installs it before
   any account opens. You download once. (On the Mac, as long as it is in the Applications folder — see below.)
 
 > Economy mode follows the character while it hunts offline (VIP). It does not keep a hunt going
 > that the game would not keep going.
-
-<p align="center">
-  <img src="imagens/grimorio.en.png" alt="The Grimoire: the hunt ranking by XP and by profit, the sheet of the selected hunt with its loot by rarity, and the map comparing the best ones">
-  <br>
-  <sub>The Grimoire. Illustrative image, with sample data.</sub>
-</p>
 
 ## Install
 

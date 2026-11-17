@@ -31,10 +31,50 @@
 
 ---
 
+## O que você ganha
+
+- **XP/h e Profit/h de cada conta, ao vivo**, sem precisar abrir o jogo de nenhuma delas.
+- **A caçada que mais rende**, num ranking de XP e de profit com o loot de cada uma.
+- **O bestiário fechado mais rápido**, com um roteiro de caçadas na ordem mais eficiente.
+- **Um aviso na hora** em que a caçada para, o personagem morre ou a stamina, uma prey ou um
+  imbuement está acabando.
+- **Quatro contas e o PC tranquilo**: até 96% menos processador com o modo economia.
+
+### Hunt Analyzer de cada conta, sem abrir o jogo
+
+No **modo economia** a conta continua caçando com o navegador fechado, e no lugar do jogo fica
+este painel: XP/h, Profit/h e rentabilidade, as preys com o tempo que resta, os imbuements de
+cada peça do equipamento e o bestiário da caçada, com quanto falta para cada fase. Na barra, a
+party inteira com o DPS, a cura e o gasto de cada um.
+
 <p align="center">
   <img src="imagens/painel-economia.png" alt="O painel do modo economia, em três colunas: XP por hora, profit, preys, imbuements do equipamento e bestiário da caçada, com as contas e a party na barra lateral">
   <br>
   <sub>O painel do modo economia. Imagem ilustrativa, com dados de exemplo.</sub>
+</p>
+
+### Qual caçada dá mais XP e mais profit
+
+O **Grimório** guarda o recorde de cada caçada que você fez, por conta e por modo, party ou solo.
+Dois rankings lado a lado, o loot de cada caçada por raridade e um mapa que compara as melhores
+de uma vez.
+
+<p align="center">
+  <img src="imagens/grimorio.png" alt="O Grimório: o ranking de caçadas por XP e por profit, a ficha da caçada selecionada com o loot por raridade, e o mapa comparando as melhores">
+  <br>
+  <sub>O Grimório, aba Caçadas. Imagem ilustrativa, com dados de exemplo.</sub>
+</p>
+
+### O caminho mais curto no bestiário
+
+Na aba **Bestiário**, o Grimório cruza os seus abates com a velocidade de cada caçada e diz quais
+rendem mais bestiário por hora de stamina, quanto falta para fechar cada monstro e um roteiro na
+ordem mais eficiente, para o próximo nível ou para o próximo bônus de dano.
+
+<p align="center">
+  <img src="imagens/bestiario.png" alt="O Bestiário do Grimório: as caçadas que mais rendem bestiário por hora, os monstros mais rápidos de fechar, a ficha da caçada selecionada com o progresso de cada monstro e o roteiro mais eficiente">
+  <br>
+  <sub>O Grimório, aba Bestiário. Imagem ilustrativa, com dados de exemplo.</sub>
 </p>
 
 ## Por que o IdleXP
@@ -61,15 +101,8 @@ E cada conta que sai da tela, sozinha: de **776 MB e 27% de um núcleo** para **
 e uma deslogada, duas janelas de 60 segundos, a única diferença sendo o modo economia. Os números
 do seu PC vão ser outros; a proporção é o que conta.</sub>
 
-## O que ele faz
+## Tudo o que ele faz
 
-- **Quatro contas, quatro logins salvos.** Cada conta tem o seu próprio espaço: uma não enxerga a
-  outra, e você não precisa entrar de novo toda vez que abre o app. Se quiser, o app guarda o e-mail
-  e a senha de cada conta, cifrados pelo cofre do seu sistema, e preenche a página de login.
-- **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado, e os
-  arranjos giram com o monitor em pé. Arraste os cartões da barra para trocar as contas de lugar, e
-  recolha a barra para dar mais espaço ao jogo. F1 a F4 trocam de conta pelo teclado (no Mac,
-  Cmd+1 a Cmd+4). Zoom ajustável e tela cheia.
 - **Modo economia.** A conta continua caçando, mas sem navegador aberto. No lugar do jogo fica um
   painel em seções que recolhem com um clique: vida, mana, stamina, nível, **XP/h**, **Profit/h**, as
   **preys** ativas, o **bestiário** da caçada, com quanto falta para cada fase, e os **imbuements** do
@@ -82,27 +115,28 @@ do seu PC vão ser outros; a proporção é o que conta.</sub>
   mais eficiente. Os números vêm do próprio jogo, e tudo fica no seu computador.
 - **A party na barra lateral.** Com pelo menos uma conta em modo economia, a barra mostra a party
   ordenada do maior dano para o menor, com **DPS**, cura e gasto de cada membro.
-- **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
-  economia sozinhas depois de 2 minutos.
 - **Avisa mesmo com o app fora da tela.** Quando uma conta em modo economia pede atenção — a caçada
   parou, o personagem morreu, ou a stamina, uma prey ou um imbuement está acabando —, chega uma
   notificação do sistema, o ícone pisca e toca um som. No sino da barra você escolhe o que avisa,
   com quanto tempo de antecedência e de que jeito.
-- **Em português ou em inglês.** A língua se escolhe no globo da janela de abertura, antes de entrar
-  nas contas. Na primeira vez o app segue a língua do sistema.
+- **Economia automática.** Nos layouts de 1 a 3 telas, as contas que ficam fora da tela entram em
+  economia sozinhas depois de 2 minutos.
+- **Quatro contas, quatro logins salvos.** Cada conta tem o seu próprio espaço: uma não enxerga a
+  outra, e você não precisa entrar de novo toda vez que abre o app. Se quiser, o app guarda o e-mail
+  e a senha de cada conta, cifrados pelo cofre do seu sistema, e preenche a página de login.
+- **A tela do seu jeito.** De 1 a 4 telas lado a lado, ou uma grande com as outras ao lado, e os
+  arranjos giram com o monitor em pé. Arraste os cartões da barra para trocar as contas de lugar, e
+  recolha a barra para dar mais espaço ao jogo. F1 a F4 trocam de conta pelo teclado (no Mac,
+  Cmd+1 a Cmd+4). Zoom ajustável e tela cheia.
 - **Esconde os nomes para print e live.** Um clique tarja os nomes dos personagens no app e, dentro
   do jogo, no mapa, na party, no cabeçalho, no Analisador de caçada e nas listas de amigos e da guild.
+- **Em português ou em inglês.** A língua se escolhe no globo da janela de abertura, antes de entrar
+  nas contas. Na primeira vez o app segue a língua do sistema.
 - **Se atualiza sozinho.** Ao abrir, o IdleXP confere se há versão nova, baixa e instala antes de
   qualquer conta abrir. Você baixa uma vez só. (No Mac, desde que esteja na pasta Aplicativos — veja abaixo.)
 
 > O modo economia acompanha o personagem enquanto ele caça offline (VIP). Ele não mantém uma
 > caçada que o jogo não manteria.
-
-<p align="center">
-  <img src="imagens/grimorio.png" alt="O Grimório: o ranking de caçadas por XP e por profit, a ficha da caçada selecionada com o loot por raridade, e o mapa comparando as melhores">
-  <br>
-  <sub>O Grimório. Imagem ilustrativa, com dados de exemplo.</sub>
-</p>
 
 ## Instalar
 
